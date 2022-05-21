@@ -1,0 +1,134 @@
+h1 {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    margin-bottom: 0.2em;
+    margin-left: 0.4em;
+}
+
+body {
+    font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+    color: #404040;
+    line-height: normal;
+}
+
+form.lexikon-search {
+    font-size: 1rem;
+    line-height: normal;
+    margin-bottom: 1em;
+}
+
+form.lexikon-search .inputwrapper {
+    max-width: 100vw;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+form.lexikon-search input {
+    font-size: 1rem;
+    line-height: normal;
+}
+
+form.lexikon-search input#searchquery {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form.lexikon-search label {
+    padding-right: 0.4em;
+}
+
+.lexikon-result {
+    margin-bottom: 200px;
+}
+
+
+.resultentry {
+    /*margin: 1em;*/
+    font-size: 1rem;
+    /*line-height: normal;*/
+    word-break: keep-all;
+    border: solid black;
+    border-width: 0 0;
+}
+
+
+.resulttranslation, .resultword, .resultdomain {
+/*    vertical-align: middle;*/
+}
+
+.resulttranslation {
+    font-size: 1rem;
+    /*padding-left: 0.5rem;*/
+    padding-right: 0.5rem;
+}
+
+.resultword {
+    font-size: 1rem;
+    /*line-height: 1rem;*/
+    padding-right: 0.5rem;
+}
+
+.resultdomain {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    background: #0000c0;
+    color: white;
+}
+
+.resultterm {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    background: #f5f5f5;
+    border: 1px solid #f0f0f0;
+}
+
+.hanvisning {
+    padding-left: 1em;
+}
+
+.resultrow {
+    margin: 1rem;
+}
+
+.entryheader {
+    font-size: 1rem;
+    margin: 0.4em;
+    word-break: keep-all;
+}
+
+@media screen and (max-width: 800px) {
+    .resultword {
+        display: block;
+    }
+}
+
+.ui-menu .ui-menu-item {
+    font-size: 2rem;
+    line-height: normal;    
+}
+
+.sv-ord {
+    font-weight: bold;
+}
+
+.lexnr {
+    padding-right: 1ex;
+}
+
+.graminfo {
+    font-style: italic;
+    font-size: 0.9em;
+    font-family: Georgia, serif;
+    padding-left: 1ex;
+}
+
+.kommentar {
+    font-family: Georgia, serif;
+    font-size: 0.9em;
+    padding-left: 1ex;
+}
