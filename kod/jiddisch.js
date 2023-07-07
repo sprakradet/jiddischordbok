@@ -25,7 +25,7 @@ function format_row(id, sv, yi) {
     let wordwrapper = $("<div class='resultword'></div>");
     
     wordwrapper.append(
-	$("<span class='sv-ord'></span>")
+	$("<span class='sv-ord' lang='sv'></span>")
 	    .text(sv.ord)
     );
 
@@ -38,14 +38,14 @@ function format_row(id, sv, yi) {
 
     if (sv.graminfo) {
 	wordwrapper.append(
-	    $("<span class='graminfo'></span>")
+	    $("<span class='graminfo' lang='sv'></span>")
 		.text(sv.graminfo)
 	);
     }
 
     if (sv.komm) {
 	wordwrapper.append(
-	    $("<span class='kommentar'></span>")
+	    $("<span class='kommentar' lang='sv'></span>")
 		.text(sv.komm)
 	);
     }
@@ -54,12 +54,12 @@ function format_row(id, sv, yi) {
 
     if (yi) {
 	result.append(
-	    $("<span class='resulttranslation'></span>")
+	    $("<span class='resulttranslation' lang='yi-Latn-SE'></span>")
 		.text(yi.ord.Latn)
 	);
 
 	result.append(
-	    $("<span class='resultterm'></span>")
+	    $("<span class='resultterm' lang='yi'></span>")
 		.attr("dir", "rtl")
 		.text(yi.ord.Hebr)
 	);
